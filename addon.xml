@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (C) 2010 The Android Open Source Project
+ *
+ * Licensed under the Apache License, version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<sdk:sdk-addon xmlns:sdk="http://schemas.android.com/sdk/android/addon/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <sdk:license id="android-sdk-license" type="text">This is the Android Software Development Kit License Agreement...
+    </sdk:license>
+
+    <sdk:license id="android-googletv-license" type="text">Terms and Conditions
+
+This is the Google TV Add-on for the Android Software Development Kit License Agreement..
+   </sdk:license>
+
+    <!-- ADD-ONS ....................... -->
+
+    <sdk:add-on>
+        <!-- <sdk:vendor-id>google</sdk:vendor-id> -->
+        <!-- <sdk:vendor-display>Google Inc.</sdk:vendor-display> -->
+        <!-- <sdk:name-id>google_apis</sdk:name-id> -->
+        <sdk:vendor>Google Inc.</sdk:vendor>
+        <sdk:name>Google APIs</sdk:name>
+        <!-- <sdk:name-display>Google APIs</sdk:name-display> -->
+        <sdk:description>Android + Google APIs</sdk:description>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+        <sdk:libs>
+            <sdk:lib>
+                <sdk:name>com.google.android.maps</sdk:name>
+            </sdk:lib>
+            <sdk:lib>
+                <sdk:name>com.android.future.usb.accessory</sdk:name>
+            </sdk:lib>
+            <sdk:lib>
+                <sdk:name>com.google.android.media.effects</sdk:name>
+            </sdk:lib>
+        </sdk:libs>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>106480988</sdk:size>
+                <sdk:checksum type="sha1">0339e3d919918d32750c77101a3b04b4cd64e549</sdk:checksum>
+                <sdk:url>google_apis-15_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:add-on>
+
+    <!-- EXTRAS VENDOR=ANDROID ........................ -->
+
+    <sdk:extra>
+        <sdk:revision>6</sdk:revision>
+        <!-- <sdk:vendor-display>Android</sdk:vendor-display> -->
+        <!-- <sdk:vendor-id>android</sdk:vendor-id> -->
+        <!-- <sdk:name-display>Android Support Library</sdk:name-display> -->
+        <sdk:vendor>Android</sdk:vendor>
+        <sdk:path>support</sdk:path>
+        <sdk:old-paths>compatibility</sdk:old-paths>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>827397</sdk:size>
+                <sdk:checksum type="sha1">e04e0a3a49cbf45d1e01f3a6248394fe08017ae8</sdk:checksum>
+                <sdk:url>support_r06.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+    </sdk:extra>
+
+</sdk:sdk-addon>
