@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (C) 2009 The Android Open Source Project
+ *
+ * Licensed under the Apache License, version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <sdk:license id="android-sdk-license" type="text">To get started with the Android SDK, you must agree to the following terms and conditions...
+    </sdk:license>
+
+    <!-- PLATFORMS ........................ -->
+
+    <sdk:platform>
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android SDK Platform 4.0.3</sdk:description>
+        <sdk:version>4.0.3</sdk:version>
+        <sdk:api-level>15</sdk:api-level>
+        <!-- <sdk:min-tools-rev><sdk:major>15</sdk:major></sdk:min-tools-rev> -->
+        <sdk:min-tools-rev>15</sdk:min-tools-rev>
+        <sdk:layoutlib>
+            <sdk:api>7</sdk:api>
+            <sdk:revision>1</sdk:revision>
+        </sdk:layoutlib>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>44375900</sdk:size>
+                <sdk:checksum type="sha1">7d0cd29d3f91bbb7fb52b87cf04e5afb50376cdc</sdk:checksum>
+                <sdk:url>android-15_r02.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:platform>
+
+    <!-- SAMPLES ........................ -->
+
+    <sdk:sample>
+        <sdk:revision>1</sdk:revision>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>16264024</sdk:size>
+                <sdk:checksum type="sha1">4569295bcfc7287e62d8470d9da52fb08961f70e</sdk:checksum>
+                <sdk:url>samples-15_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:sample>
+
+    <!-- DOCS ........................ -->
+
+    <sdk:doc>
+        <sdk:revision>1</sdk:revision>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>137065704</sdk:size>
+                <sdk:checksum type="sha1">bd6be3d4f40d610963113b956edddcd66aca9327</sdk:checksum>
+                <sdk:url>docs-15_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:doc>
+
+    <!-- SOURCES ........................ -->
+
+    <sdk:source>
+        <!-- Generated at Fri Mar 30 10:43:44 2012 from ics-mr1 @ 302030 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>16378273</sdk:size>
+                <sdk:checksum type="sha1">6f74aa988a8d948d833105982647615d88167df6</sdk:checksum>
+                <sdk:url>sources-15_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:source>
+
+    <!--  PLATFORM TOOLS ........................  -->
+
+    <sdk:platform-tool>
+        <!-- <sdk:revision><sdk:major>10</sdk:major><sdk:minor>0</sdk:minor><sdk:micro>0</sdk:micro></sdk:revision> -->
+        <sdk:revision>10</sdk:revision>
+        <sdk:archives>
+            <sdk:archive os="linux">
+                <sdk:size>9930673</sdk:size>
+                <sdk:checksum type="sha1">5f6a36c5d5e51cfa51a964c0365a0533784b8c9f</sdk:checksum>
+                <sdk:url>platform-tools_r10-linux.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:platform-tool>
+
+    <!--  TOOLS ........................  -->
+
+    <sdk:tool>
+        <!-- <sdk:revision><sdk:major>16</sdk:major></sdk:revision> -->
+        <sdk:revision>16</sdk:revision>
+        <!-- <sdk:min-platform-tools-rev><sdk:major>10</sdk:major></sdk:min-platform-tools-rev> -->
+        <sdk:min-platform-tools-rev>10</sdk:min-platform-tools-rev>
+        <sdk:archives>
+            <sdk:archive os="linux">
+                <sdk:size>22047281</sdk:size>
+                <sdk:checksum type="sha1">7bb163009e80b4de887f541fc021394c857568ca</sdk:checksum>
+                <sdk:url>tools_r16-linux.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:tool>
+
+    <!-- SYSTEM IMAGES ........................ -->
+
+    <sdk:system-image>
+        <!-- Generated at Fri Mar 30 10:43:23 2012 from ics-mr1 @ 302030 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android SDK Platform 4.0.3</sdk:description>
+        <sdk:api-level>15</sdk:api-level>
+        <sdk:abi>armeabi-v7a</sdk:abi>
+        <sdk:archives>
+            <sdk:archive arch="any" os="any">
+                <sdk:size>96280271</sdk:size>
+                <sdk:checksum type="sha1">d7b094803c1dc2f0b3ab8e153058cfbecc198df7</sdk:checksum>
+                <sdk:url>sysimg_armv7a-15_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:system-image>
+</sdk:sdk-repository>
