@@ -1,0 +1,6 @@
+### Settings for Android Tool
+#Tue Jul 07 06:49:22 UTC 2020
+http.proxyPort=$PORT
+http.proxyHost=localhost
+sdkman.ask.adb.restart=false
+sdkman.force.http=true
